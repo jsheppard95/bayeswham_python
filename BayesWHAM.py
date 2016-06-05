@@ -11,7 +11,7 @@
 %            	(ii)  all simulations conducted at same temperature, T
 %            	(iii) rectilinear binning of histograms collected over each umbrella simulation  
 % 2. computes maximum a posteriori (MAP) estimate of unbiased probability distribution p(psi) by maximizing P(theta|data) = P(data|theta)*P(theta)/P(data), which is equivalent to solving WHAM equation with a Bayesian prior; 
-%    with no prior (i.e., uniform prior) this is the maximum likelihood estimate, whici is precisely equivalent to solving the WHAM equations  
+%    with no prior (i.e., uniform prior) this is the maximum likelihood estimate, which is precisely equivalent to solving the WHAM equations  
 % 3. estimates uncertainties by sampling from the posterior distribution P(theta|data) using Metropolis-Hastings algorithm 
 
 % REFERENCES
