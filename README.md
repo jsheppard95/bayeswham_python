@@ -228,7 +228,7 @@ histBinEdgesFile_PROJ='./diala_phi_psi_EXAMPLE/hist_binEdges_phi_psi_theta.txt';
 
 If you use the BayesWHAM.py and BayesReweight.py codes, please read and cite:
 
-A.L. Ferguson "BayesWHAM: A Bayesian approach for free energy estimation, reweighting, and uncertainty quantification in the weighted histogram analysis method" *\<journal\>* (2016)
+A.L. Ferguson "BayesWHAM: A Bayesian approach for free energy estimation, reweighting, and uncertainty quantification in the weighted histogram analysis method" *J. Comput. Chem.* **38** 18 1583-1605 (2017)
 
 
 ### Contact ###
