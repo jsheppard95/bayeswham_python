@@ -1,3 +1,5 @@
+#!/bin/sh
+
 dim=1;
 
 periodicity=[1];
@@ -24,9 +26,12 @@ maxDpStep_MH=5E-4;
 
 seed_MH=200184;
 
-prior='Dirichlet';
+prior='none';
 
 alpha=2;
 
+eval "$(conda shell.bash hook)"
+conda activate py27
 python BayesWHAM.py $dim $periodicity $T $harmonicBiasesFile $histBinEdgesFile $histDir $tol_WHAM $maxIter_WHAM $steps_MH $saveMod_MH $printMod_MH $maxDpStep_MH $seed_MH $prior $alpha
 
+conda deactivate
