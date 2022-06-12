@@ -16,11 +16,11 @@ tol_WHAM=1E-15;
 
 maxIter_WHAM=1E6;
 
-steps_MH=1E6;
+steps_MH=1E7;
 
 saveMod_MH=1E3;
 
-printMod_MH=1E3;
+printMod_MH=1E7;
 
 maxDpStep_MH=5E-4;
 
